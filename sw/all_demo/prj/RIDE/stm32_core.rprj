@@ -1,0 +1,4 @@
+
+<Project Header="Project 'stm32_core'" Path=".\stm32_core.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="stm32_core" >
+	<ApplicationBuild Header="stm32_core" Extern=".\stm32_core.rapp" Path=".\stm32_core.rapp" OutputFile="obj\stm32_core.elf" Config="stm32_core" sate="66" />
+</Project>

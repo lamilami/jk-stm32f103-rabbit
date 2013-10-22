@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>stm32_core/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>173</Column0><Column1>50</Column1><Column2>27</Column2><Column3>1241940</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1216</ColumnWidth1><ColumnWidth2>324</ColumnWidth2><ColumnWidth3>81</ColumnWidth3></Build>
+    <Debug-Log><ColumnWidth0>26</ColumnWidth0><ColumnWidth1>703</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9625-11437</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>stm32_core</ExpandedNode><ExpandedNode>stm32_core/CMSIS</ExpandedNode><ExpandedNode>stm32_core/IAR Workbench</ExpandedNode><ExpandedNode>stm32_core/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29094-11890</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-4660-21886</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h</Filename><XPos>0</XPos><YPos>1074</YPos><SelStart>61414</SelStart><SelEnd>61414</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-013662e0><key>iaridepm.enu1</key></Toolbar-013662e0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>354</Bottom><Right>286</Right><x>-2</x><y>-2</y><xscreen>16</xscreen><yscreen>19</yscreen><sizeHorzCX>18286</sizeHorzCX><sizeHorzCY>28963</sizeHorzCY><sizeVertCX>329143</sizeVertCX><sizeVertCY>542683</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>258</Bottom><Right>877</Right><x>-2</x><y>-2</y><xscreen>879</xscreen><yscreen>260</yscreen><sizeHorzCX>1004571</sizeHorzCX><sizeHorzCY>396341</sizeHorzCY><sizeVertCX>18286</sizeVertCX><sizeVertCY>28963</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
