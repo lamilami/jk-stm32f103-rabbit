@@ -1,0 +1,22 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+O_SRCS := 
+C_SRCS := 
+S_UPPER_SRCS := 
+OBJ_SRCS := 
+ASM_SRCS := 
+OBJS := 
+C_DEPS := 
+EXECUTABLES := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+. \
+STM32_USB-FS-Device_Driver/src \
+STM32F10x_StdPeriph_Driver/src \
+CMSIS/CM3/DeviceSupport/ST/STM32F10x \
+CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO \
+CMSIS/CM3/CoreSupport \
+

@@ -1,0 +1,54 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir.mk
+-include STM32_USB-FS-Device_Driver/src/subdir.mk
+-include STM32F10x_StdPeriph_Driver/src/subdir.mk
+-include CMSIS/CM3/DeviceSupport/ST/STM32F10x/subdir.mk
+-include CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/subdir.mk
+-include CMSIS/CM3/CoreSupport/subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: stm32f1_rabbit_alldemo.elf
+
+# Tool invocations
+stm32f1_rabbit_alldemo.elf: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: Cross GCC Linker'
+	arm-none-eabi-gcc -L"C:\Program Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\arm-none-eabi\lib\thumb2" -T "D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC\stm32f103_ze_flash.ld" -mthumb -mcpu=cortex-m3 -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -o"stm32f1_rabbit_alldemo.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+	$(MAKE) --no-print-directory post-build
+
+# Other Targets
+clean:
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) stm32f1_rabbit_alldemo.elf
+	-@echo ' '
+
+post-build:
+	-@echo 'Bin Create'
+	-arm-none-eabi-objcopy -S  -O binary  "stm32f1_rabbit_alldemo.elf" "stm32f1_rabbit_alldemo.bin"
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY: post-build
+
+-include ../makefile.targets

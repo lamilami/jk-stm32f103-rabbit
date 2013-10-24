@@ -1,0 +1,244 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/diskio.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ff.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/hw_config.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ili93xx.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/key.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/led.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/main.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/mmc_sd.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/newlib_stubs.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/nrf24l01.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ov7670.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/queue.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/rtc.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/sccb.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/spi.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/stm32f10x_it.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/timer.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/touch.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usart.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_desc.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_istr.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_prop.c \
+D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_pwr.c 
+
+OBJS += \
+./diskio.o \
+./ff.o \
+./hw_config.o \
+./ili93xx.o \
+./key.o \
+./led.o \
+./main.o \
+./mmc_sd.o \
+./newlib_stubs.o \
+./nrf24l01.o \
+./ov7670.o \
+./queue.o \
+./rtc.o \
+./sccb.o \
+./spi.o \
+./stm32f10x_it.o \
+./timer.o \
+./touch.o \
+./usart.o \
+./usb_desc.o \
+./usb_istr.o \
+./usb_prop.o \
+./usb_pwr.o 
+
+C_DEPS += \
+./diskio.d \
+./ff.d \
+./hw_config.d \
+./ili93xx.d \
+./key.d \
+./led.d \
+./main.d \
+./mmc_sd.d \
+./newlib_stubs.d \
+./nrf24l01.d \
+./ov7670.d \
+./queue.d \
+./rtc.d \
+./sccb.d \
+./spi.d \
+./stm32f10x_it.d \
+./timer.d \
+./touch.d \
+./usart.d \
+./usb_desc.d \
+./usb_istr.d \
+./usb_prop.d \
+./usb_pwr.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+diskio.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/diskio.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+ff.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ff.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+hw_config.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/hw_config.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+ili93xx.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ili93xx.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+key.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/key.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+led.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/led.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+main.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/main.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+mmc_sd.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/mmc_sd.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+newlib_stubs.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/newlib_stubs.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+nrf24l01.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/nrf24l01.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+ov7670.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/ov7670.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+queue.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/queue.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+rtc.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/rtc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+sccb.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/sccb.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+spi.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/spi.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+stm32f10x_it.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/stm32f10x_it.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+timer.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/timer.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+touch.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/touch.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+usart.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usart.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+usb_desc.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_desc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+usb_istr.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_istr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+usb_prop.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_prop.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+usb_pwr.o: D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/usb_pwr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	arm-none-eabi-gcc -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\CMSIS\CM3\CoreSupport" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../all_demo" -I"D:/svn/google_code/jk-stm32f103-rabbit/sw/all_demo/prj/GCC/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include" -O0 -g3 -Wall -c -v -mthumb -mcpu=cortex-m3 -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
