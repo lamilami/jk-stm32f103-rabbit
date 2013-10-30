@@ -31,7 +31,6 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32_USB-FS-Device_Driver\inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../../lib\STM32_USB-FS-Device_Lib_V3.2.1\Libraries\STM32F10x_StdPeriph_Driver\inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../../all_demo&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../../lib/STM32_USB-FS-Device_Lib_V3.2.1/Libraries/CMSIS/Include&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.652051733" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
@@ -54,7 +53,7 @@
 								</inputType>
 							</tool>
 							<tool command="arm-none-eabi-as" id="cdt.managedbuild.tool.gnu.assembler.856394223" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler">
-								<option id="gnu.both.asm.option.flags.1385759338" superClass="gnu.both.asm.option.flags" value="-mthumb -mcpu=cortex-m3" valueType="string"/>
+								<option id="gnu.both.asm.option.flags.1385759338" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-mthumb -mcpu=cortex-m3" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1490810145" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.369952214" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
